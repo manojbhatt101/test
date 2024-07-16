@@ -1,0 +1,134 @@
+@media screen and (max-width:768px) {
+
+    html body.travelshift-CS2-T4[data-path="/"][data-url*="https://guidetoiceland.is/"] .video-container {
+        display: flex !important;
+    }
+
+    html body.travelshift-CS2-T4 [data-crid="t4-video-autoloop"] {
+        width: 100%;
+    }
+
+    html body.travelshift-CS2-T4 [data-selector="search-widget"] {
+        margin-top: -50px;
+    }
+
+    html body.travelshift-CS2-T4 .Crevideosection iframe {
+        display: block;
+        width: 100%;
+        height: 300px;
+    }
+
+    html body.travelshift-CS2-T4 .Crevideosection iframe {
+        height: 400px;
+        width: 100%;
+    }
+
+    html body.travelshift-CS2-T4 #frontCover #coverCarouselfrontCover+div {
+        padding: 0;
+        min-height: 700px;
+    }
+
+    html body.travelshift-CS2-T4 .video-container {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        background: black;
+        overflow: hidden;
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        padding-top: 50px;
+    }
+
+    html body.travelshift-CS2-T4 .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: scale(1.9);
+        /* Scale the video */
+        transform-origin: center center;
+        /* Adjust the origin point */
+    }
+
+    html body.travelshift-CS2-T4 [data-selector=search-widget] {
+        margin-top: -80px;
+        padding: 4px 16px;
+        border: none;
+        box-shadow: none;
+    }
+
+    html body.travelshift-CS2-T4 .headingsubheading>* {
+        position: relative;
+        z-index: 99;
+    }
+
+    html body.travelshift-CS2-T4 .headingsubheading {
+        z-index: 9;
+    }
+
+    html body.travelshift-CS2-T4 .headingsubheading:before {
+        content: " ";
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.1);
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    html body.travelshift-CS2-T4 .showThumbnail .video-container:after {
+        content: url("https://guidetoiceland.imgix.net/4639679/x/0/seljalandsfoss.jpg?auto=format%2Ccompress&fit=crop&crop=center&dpr=1&ixlib=react-9.8.1&q=32&w=720&h=432%201x,%20https://guidetoiceland.imgix.net/4639679/x/0/seljalandsfoss.jpg?auto=format%2Ccompress&fit=crop&crop=center&dpr=2&ixlib=react-9.8.1&q=32&w=780&h=432%202x");
+        height: 100%;
+        width: 100%;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    html body #frontCover #coverCarouselfrontCover+div>h1,
+    html body #frontCover #coverCarouselfrontCover+div>h1+div {
+        display: none;
+    }
+
+    html body.travelshift-CS2-T4 [data-crid="Home_Banner"] {
+        min-height: 742px;
+    }
+
+    html body.travelshift-CS2-T4 .headingsubheading {
+        padding: 0 15px;
+    }
+
+    html body.travelshift-CS2-T4 .headingsubheading h1 {
+        font-size: 25px;
+        font-weight: 700;
+        padding: 0px 35px;
+        cursor: default;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+
+    html body.travelshift-CS2-T4 .headingsubheading p {
+        font-size: 16px;
+        cursor: default;
+        font-weight: 400;
+        line-height: 24px !important;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 305px;
+    }
+}
+
+
+@media screen and (max-width:375px) {
+    html body.travelshift-CS2-T4 .video-container {
+        height: 350px;
+    }
+}

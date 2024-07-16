@@ -1,0 +1,121 @@
+@media screen and (max-width:768px) {
+
+    html body.travelshift-CS2-T4-v2[data-path="/"][data-url*="https://guidetoiceland.is/"] .video-container {
+        display: flex !important;
+    }
+
+    html body.travelshift-CS2-T4-v2 [data-selector="search-widget"] {
+        margin-top: -50px;
+    }
+
+    html body.travelshift-CS2-T4-v2 .Crevideosection iframe {
+        display: block;
+        width: 100%;
+        height: 300px;
+    }
+
+    html body.travelshift-CS2-T4-v2 .Crevideosection iframe {
+        height: 400px;
+        width: 100%;
+    }
+
+    html body.travelshift-CS2-T4-v2 #frontCover #coverCarouselfrontCover+div {
+        padding: 0;
+        min-height: 700px;
+    }
+
+    html body.travelshift-CS2-T4-v2 .video-container {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        background: black;
+        overflow: hidden;
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        padding-top: 50px;
+    }
+
+    html body.travelshift-CS2-T4-v2 .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: scale(1.9);
+        /* Scale the video */
+        transform-origin: center center;
+        /* Adjust the origin point */
+    }
+
+    html body.travelshift-CS2-T4-v2 [data-selector=search-widget] {
+        margin-top: -80px;
+        padding: 4px 16px;
+        border: none;
+        box-shadow: none;
+    }
+
+    html body.travelshift-CS2-T4-v2 .headingsubheading>* {
+        position: relative;
+        z-index: 99;
+    }
+
+    html body.travelshift-CS2-T4-v2 .headingsubheading {
+        z-index: 9;
+    }
+
+    html body.travelshift-CS2-T4-v2 .headingsubheading:before {
+        content: " ";
+        height: 100%;
+        width: 100%;
+        background-color: #0000007a;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    html body #frontCover #coverCarouselfrontCover+div>h1,
+    html body #frontCover #coverCarouselfrontCover+div>h1+div {
+        display: none;
+    }
+
+    html body.travelshift-CS2-T4-v2 [data-crid="Home_Banner"] {
+        min-height: 742px;
+    }
+
+    html body.travelshift-CS2-T4-v2 .headingsubheading {
+        padding: 0 15px;
+    }
+
+    html body.travelshift-CS2-T4-v2 .headingsubheading h1 {
+        font-size: 25px;
+        font-weight: 700;
+        padding: 0px 35px;
+        cursor: default;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+
+    html body.travelshift-CS2-T4-v2 .headingsubheading p {
+        font-size: 15px;
+        cursor: default;
+        font-weight: 600;
+        line-height: 24px !important;
+        max-width: 320px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    html body.travelshift-CS2-T4-v2 [data-crid="t4-video-autoloop"] {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width:375px) {
+    html body.travelshift-CS2-T4-v2 .video-container {
+        height: 350px;
+    }
+}
